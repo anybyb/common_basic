@@ -17,23 +17,7 @@ public class PagePo {
 	
 		//总条数
 	    public long total = 0;
-	    
-	    public String message;	//后台返回给前端页面显示的信息
-	    public boolean haveMessage = false;	//是否有后台消息返回到前端页面
-
-		public boolean getHaveMessage() {
-          if(!StringUtils.isBlank(message)){
-        	  return true;
-		    }
-			return haveMessage;
-		}
-
-		public String getMessage() {
-			return message;
-		}
-		public void setMessage(String message) {
-			this.message = message;
-		}
+	   
 		public long getTotal() {
 			return total;
 		}
